@@ -128,3 +128,20 @@ div.info{
 .buttons>button.proceed:hover{
     background-color: #007bff;
 }
+
+/* QUIZ-BOX */
+.quiz-box{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50% -50%);
+    width: 550px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+/* Header */
+.quiz-box header{
+    height: 80px;
+}
