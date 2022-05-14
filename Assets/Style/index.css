@@ -113,6 +113,10 @@ div.info{
 
 }
 
+.buttons>button.exit>i{
+    margin: 10px;
+}
+
 
 .buttons>button.exit:hover{
     color: white;
@@ -123,6 +127,10 @@ div.info{
     background-color: #007bff;
     border: 1px solid #007bff;
     color: white;
+}
+
+.buttons>button.proceed>i{
+    margin: 5px;
 }
 
 .buttons>button.proceed:hover{
@@ -138,6 +146,7 @@ div.info{
     width: 550px;
     background-color: #fff;
     border-radius: 5px;
+    /* display: none; */
 }
 
 
@@ -162,10 +171,10 @@ div.info{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 25%;
-    background-color: #fff;
+    width: 30%;
+    background-color: lightgrey;
     height: 50px;
-    border: 1px solid red;
+    border: 1px solid lightgrey;
     border-radius: 5px;
     margin-right: 20px;
     padding: 0px 10px;
@@ -183,3 +192,17 @@ div.info{
     color: black;
     margin-left: 5px;
 }
+
+.quiz-box header>.timer>.counter{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #343a40;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    border: 1px #343a40;
+    user-select: none;
+}
+
