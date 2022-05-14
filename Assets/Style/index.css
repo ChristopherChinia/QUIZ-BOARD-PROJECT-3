@@ -146,7 +146,7 @@ div.info{
     width: 550px;
     background-color: #fff;
     border-radius: 5px;
-    /* display: none; */
+    /* display: none;  */
 }
 
 
@@ -191,12 +191,14 @@ div.info{
     background-color: #fff;
     color: black;
     margin-left: 5px;
+    background-color: lightgrey;
 }
 
 .quiz-box header>.timer>.counter{
     font-size: 20px;
     font-weight: 500;
     background-color: #343a40;
+    color: #fff;
     text-align: center;
     border-radius: 5px;
     height: 30px;
@@ -209,4 +211,77 @@ div.info{
 /* Quiz Box Body */
 .Quiz-box-body{
     padding: 30px 30px 30px 30px;
+    background-color: #fff;
 }
+
+.Quiz-box-body>div.QuestionOne{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Quiz-box-body>.options{
+    padding: 20px 0px 0px 0px;
+    display: block;
+}
+
+.Quiz-box-body>.options>.option{
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Quiz-box-body>.options>.option:hover{
+    color: #007bff;
+    background-color: #fff;
+    border-color: #b8daff;
+}
+
+.Quiz-box-body>.options>.option>.iconTick{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    font-size: 12px;
+    pointer-events: none;
+    border-color: green;
+    line-height: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: lightgreen;
+}
+
+.Quiz-box-body>.options>.option>.iconTick>i{
+    color: green;
+}
+
+
+.Quiz-box-body>.options>.option>.iconX{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    font-size: 12px;
+    pointer-events: none;
+    border-color: red;
+    line-height: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #f8d7da;
+}
+
+.Quiz-box-body>.options>.option>.iconX>i{
+    color: red;
+    
+}
+
