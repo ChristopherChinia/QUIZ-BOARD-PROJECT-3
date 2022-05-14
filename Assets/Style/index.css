@@ -298,6 +298,37 @@ justify-content: space-between;
 .quiz-box>footer>.total-score>span{
     user-select: none;
     display: flex;
-    
+
 }
 
+.quiz-box>footer>.total-score>span>p{
+   font-weight: bold; 
+   padding: 5px;
+   font-size: 20px;
+   
+}
+
+.quiz-box>footer>.total-score>span>p:first-child{
+    margin-left:15px ;
+}
+footer>.proceed-btn{
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+footer>.proceed-btn:hover{
+    color: #007bff;
+    background-color: #fff;
+    border-color: #b8daff;  
+}
