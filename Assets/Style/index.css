@@ -206,3 +206,7 @@ div.info{
     user-select: none;
 }
 
+/* Quiz Box Body */
+.Quiz-box-body{
+    padding: 30px 30px 30px 30px;
+}
