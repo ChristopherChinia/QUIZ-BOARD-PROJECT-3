@@ -52,10 +52,8 @@ color: white;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     opacity: 1.0;
-    
     transition: all 0.3s ease;
     pointer-events: all; 
-    display: none 
     
 }
 
@@ -124,7 +122,11 @@ div.info{
 
 }
 
-.buttons>button.exit>i{
+.buttons>button.exit>a{
+text-decoration: none;
+}
+
+.buttons>button.exit>a>i{
     margin: 10px;
 }
 
