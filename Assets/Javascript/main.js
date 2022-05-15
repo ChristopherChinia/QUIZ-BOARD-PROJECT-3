@@ -61,4 +61,15 @@ const loadQuestions = () => {
     opt3.innerHTML = listOfQuestions.answers.c;
     opt4.innerHTML = listOfQuestions.answers.d;
 }
+loadQuestions();
+const getAnswer = () => {
+    let ans;
+    answers1.forEach(currentAnswer => {
+        if (currentAnswer.checked) {
+            ans = currentAnswer.class;
+        }
+    });
+    const corAnswer = {ans1:'a', ans2:'b', ans3:'c', ans4:'d'};
+    return corAnswer[ans];
+}
 
