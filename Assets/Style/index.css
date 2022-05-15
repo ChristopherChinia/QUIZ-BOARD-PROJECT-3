@@ -37,6 +37,11 @@ color: white;
 
 }
 
+.startbtn>button>a{
+    text-decoration: none;
+    
+}
+
 .startbtn>button:hover{
     color: white;
     background-color: #007bff;
@@ -45,18 +50,22 @@ color: white;
 /* Box Model */
 .boxmodel{
     background-color: white;
-    display: none;
     border-radius: 15px 15px 15px 15px;
+    opacity: 1.0;
+    
+    transition: all 0.3s ease;
+    pointer-events: all; 
+    display: none 
     
 }
 
 
-.boxmodel>div.box-title{
+ .boxmodel>div.boxtitle{
     font-size: 25px;
     margin-left: 250px;
 }
 
-.box-model>div.box-title{
+.boxmodel>div.boxtitle{
     text-decoration: underline;
 }
 
@@ -143,12 +152,13 @@ div.info{
 .quizbox{
     position: absolute;
     top: 50%;
-    left: 30%;
+    left:20% ;
+    
     transform: translate(-50% -50%);
-    width: 550px;
+    width: 60%;
     background-color: #fff;
-    border-radius: 5px;
-    /* display: none;  */
+    border-radius: 15px;
+    display: none; 
 }
 
 
@@ -297,23 +307,23 @@ align-items: center;
 justify-content: space-between;
 }
 
-.quizbox>footer>.total-score>span{
+.quizbox>footer>.totalscore>span{
     user-select: none;
     display: flex;
 
 }
 
-.quizbox>footer>.total-score>span>p{
+.quizbox>footer>.totalscore>span>p{
    font-weight: bold; 
    padding: 5px;
    font-size: 20px;
    
 }
 
-.quizbox>footer>.total-score>span>p:first-child{
+.quizbox>footer>.totalscore>span>p:first-child{
     margin-left:15px ;
 }
-footer>.proceed-btn{
+footer>.proceedbtn{
     border: 1px solid #007bff;
     border-radius: 5px;
     background-color: aliceblue;
@@ -330,7 +340,7 @@ footer>.proceed-btn{
     transition: all 0.3s ease;
 }
 
-footer>.proceed-btn:hover{
+footer>.proceedbtn:hover{
     color: #007bff;
     background-color: #fff;
     border-color: #b8daff;  
