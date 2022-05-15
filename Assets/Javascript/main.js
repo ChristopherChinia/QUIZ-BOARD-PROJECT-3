@@ -1,10 +1,10 @@
 // Getting all required elements
-const startbtn = document.querySelector(".startbtn button");
-const boxmodel = document.querySelector(".boxmodel");
-const quitbtn = boxmodel.querySelector(".buttons .quit");
-const proceedbtn = document.querySelector(".buttons .proceed");
+const proceedbtn = document.querySelector(".proceed");
+const quizbox = document.querySelector(".quizbox");
 
-// if start Quiz button is clicked
-startbtn.onclick =()=>{
-    boxmodel.classList.add("activate");
+// if proceed clicked
+proceedbtn.onclick = ()=>{
+    boxmodel.classList.remove("activeBoxmodel");  // hide the boxmodel 
+    quizbox.classList.add("activeQuiz");  // show the quizbox
 }
+
