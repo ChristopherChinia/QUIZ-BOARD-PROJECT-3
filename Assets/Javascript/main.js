@@ -6,7 +6,7 @@ const quiz = [
         "b":"JavaScript is a language that provides the structure of a web page by giving extra instructions to the content using tags to make it more than just a plain text.",
         "c":"JavaScript is a stylistic feature used to make the User interface more appealing.",
         "d":"JavaScript is a general purpose, high-level, object-oriented, cross-platform programming language .",
-        "correct":"JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers. JavaScript is also an Object-based Programming language.",
+        "correct":"a",
         }
     },
     {
@@ -16,7 +16,7 @@ const quiz = [
         "b":"Boolean",
         "c":"Bigint.",
         "d":"Arrays.",
-        "correct":"Arrays.",
+        "correct":"d",
         }
     },
     {
@@ -26,7 +26,7 @@ const quiz = [
         "b":"Else if.",
         "c":"While.",
         "d":"Do While loops.",
-        "correct":"Else if",
+        "correct":"b",
         }
     },
     {
@@ -46,13 +46,22 @@ const quiz = [
         "b":"pull method.",
         "c":"Reverse method.",
         "d":"shift method.",
-        "correct":"pull method.",
+        "correct":"b",
         }
     }
 ]
 
 let count = 0;
 let score = 0;
+const quizquestion = document.querySelector(".question");
+const opt1 = document.querySelector("#option1");
+const opt2 = document.querySelector("#option2");
+const opt3 = document.querySelector("#option3");
+const opt4 = document.querySelector("#option4");
+const submit = document.querySelector("#submit");
+const answers1 = document.querySelectorAll(".answer")
+const showsc = document.querySelector("#showscore");
+
 const loadQuestions = () => {
     const listOfQuestions = quiz[count];
     quizquestion.innerHTML = listOfQuestions.question;
@@ -66,10 +75,32 @@ const getAnswer = () => {
     let ans;
     answers1.forEach(currentAnswer => {
         if (currentAnswer.checked) {
-            ans = currentAnswer.class;
+            ans = currentAnswer.id;
         }
     });
     const corAnswer = {ans1:'a', ans2:'b', ans3:'c', ans4:'d'};
     return corAnswer[ans];
 }
+submit.addEventListener('click', () => {
+    const checkanswer = getAnswer();
+    console.log({ checkanswer, correct: quiz[count].answers.correct, score});
+
+    if (checkanswer == quiz[count].answers.correct) {
+        score = score + 1;
+    };
+    count++;
+    if (count < quiz.length) {
+        loadQuestions();
+
+    } else {
+        showsc.innerHTML = `
+        <h4> Your Score Is:  ${score}/ ${quiz.length}</h4>
+       <button class="Submit" onClick="location.reload()"> AttempitAgain </button>
+        `;
+
+        showsc.classList.remove("myscore")
+    }
+
+});
+/;/
 

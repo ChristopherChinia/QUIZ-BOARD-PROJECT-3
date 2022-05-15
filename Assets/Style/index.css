@@ -1,5 +1,5 @@
 body{
-    background-color:grey;
+    background: linear-gradient(105deg,#b8daff 70%,#007bff 50%)
 }
 
 /* Navigation */
@@ -12,7 +12,7 @@ nav.nav{
 nav>div.Open,.stat {
 margin-left: 15px;
 font-style: italic;
-color: white;
+color: #007bff;
 }
 
 /* Start Quiz Button */
@@ -207,13 +207,28 @@ text-decoration: none;
 .Quizboxbody{
     padding: 30px 30px 30px 30px;
     background-color: #fff;
+    
 }
 
 .Quizboxbody>div.Questions{
     font-size: 25px;
-    font-weight: 500;
 }
 
+.Quizboxbody>div.Questions>ul>li{
+    display: flex;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #b8daff;
+    cursor: pointer;
+}
+
+.Quizboxbody>div.Questions>ul>li:hover{
+    color: white;
+    background-color: #007bff;    
+
+}
 
 
 /* QUIZ BOX FOOTER */
