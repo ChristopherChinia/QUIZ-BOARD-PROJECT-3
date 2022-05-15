@@ -50,12 +50,6 @@ color: white;
     
 }
 
-.boxmodel.activeinformation{
-    background-color: white;
-    pointer-events: auto;
-    border-radius: 15px 15px 15px 15px;
-    transform: translate(-50%, -50%)scale(0.5);
-}
 
 .box-model>div.box-title{
     font-size: 25px;
