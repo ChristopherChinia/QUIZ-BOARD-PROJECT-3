@@ -52,14 +52,11 @@ color: white;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     opacity: 1.0;
-    transition: all 0.3s ease;
-    pointer-events: all; 
-    
-    
+    transition: all 0.3s ease;  
 }
 
 
- .boxmodel>div.boxtitle{
+.boxmodel>div.boxtitle{
     font-size: 25px;
     margin-left: 250px;
 }
@@ -137,38 +134,16 @@ text-decoration: none;
     background-color: #007bff;
 }
 
-.buttons>button.proceed{
-    background-color: #007bff;
-    border: 1px solid #007bff;
-    color: white;
-}
-
-.buttons>button.proceed>i{
-    margin: 5px;
-}
-
-.buttons>button.proceed:hover{
-    background-color: #007bff;
-}
 
 /* QUIZ-BOX */
 .quizbox{
-    position: absolute;
-    top: 50%;
-    left:20% ;
+    top: 55%;
     transform: translate(-50% -50%);
-    width: 60%;
     background-color: #fff;
     border-radius: 15px;
-    opacity: 0;
+    border-radius: 15px;
 }
 
-.quizbox.activeQuiz{
-    z-index: 5;
-    opacity: 1;
-    pointer-events: auto;
-    transform: translate(-50%,-50%)scale(1);
-}
 
 /* Header */
 .quizbox header{
@@ -234,7 +209,7 @@ text-decoration: none;
     background-color: #fff;
 }
 
-.Quizboxbody>div.Question{
+.Quizboxbody>div.Questions{
     font-size: 25px;
     font-weight: 500;
 }
@@ -265,45 +240,6 @@ text-decoration: none;
     border-color: #b8daff;
 }
 
-.Quizboxbody>.options>.option>.iconTick{
-    border: 2px solid transparent;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    align-items: center;
-    font-size: 12px;
-    pointer-events: none;
-    border-color: green;
-    line-height: 20px;
-    padding: 5px;
-    margin-left: 15px;
-    background-color: lightgreen;
-}
-
-.Quizboxbody>.options>.option>.iconTick>i{
-    color: green;
-}
-
-
-.Quizboxbody>.options>.option>.iconX{
-    border: 2px solid transparent;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    align-items: center;
-    font-size: 12px;
-    pointer-events: none;
-    border-color: red;
-    line-height: 20px;
-    padding: 5px;
-    margin-left: 15px;
-    background-color: #f8d7da;
-}
-
-.Quizboxbody>.options>.option>.iconX>i{
-    color: red;
-    
-}
 
 /* QUIZ BOX FOOTER */
 
@@ -313,12 +249,6 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
-}
-
-.quizbox>footer>.totalscore>span{
-    user-select: none;
-    display: flex;
-
 }
 
 .quizbox>footer>.totalscore>span>p{
@@ -338,13 +268,13 @@ footer>.proceedbtn{
     padding: 10px 40px;
     margin-bottom: 15px;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     cursor: pointer;
     width: fit-content;
     font-size: 18px;
     font-weight: 600;
-    margin-right: 15px;
+    margin-left: 45%;
     transition: all 0.3s ease;
 }
 
