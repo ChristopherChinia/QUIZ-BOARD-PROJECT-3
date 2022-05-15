@@ -53,5 +53,12 @@ const quiz = [
 
 let count = 0;
 let score = 0;
-co
+const loadQuestions = () => {
+    const listOfQuestions = quiz[count];
+    quizquestion.innerHTML = listOfQuestions.question;
+    opt1.innerHTML = listOfQuestions.answers.a;
+    opt2.innerHTML = listOfQuestions.answers.b;
+    opt3.innerHTML = listOfQuestions.answers.c;
+    opt4.innerHTML = listOfQuestions.answers.d;
+}
 
