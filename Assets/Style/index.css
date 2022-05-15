@@ -116,7 +116,7 @@ div.info{
 .buttons>button.exit{
     border: 1px solid #007bff;
     color: #007bff;
-    margin-right: 50px;
+    margin-right: 40%;
 
 }
 
@@ -214,31 +214,6 @@ text-decoration: none;
     font-weight: 500;
 }
 
-.Quizboxbody>.options{
-    padding: 20px 0px 0px 0px;
-    display: block;
-}
-
-.Quizboxbody>.options>.option{
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    background-color: aliceblue;
-    padding: 10px 40px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    width: fit-content;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.Quizboxbody>.options>.option:hover{
-    color: #007bff;
-    background-color: #fff;
-    border-color: #b8daff;
-}
 
 
 /* QUIZ BOX FOOTER */
@@ -282,109 +257,4 @@ footer>.proceedbtn:hover{
     color: #007bff;
     background-color: #fff;
     border-color: #b8daff;  
-}
-
-/* End Result */
-.endResult{
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: translate(-50% -50%);
-    width: 50%;
-    height: 50%;
-    background-color: #fff;
-    border-radius: 5px;
-    display: none; 
-}
-
-.endResult>.icon{
-margin-left: 90px;
-size: 100%;
-}
-
-.endResult>.completeText{
-    font-size: 24px;
-    align-items: center;
-    font-weight: 600;
-    margin-left: 50px;
-    margin-top: 20px;
-
-}
-
-.endResult>.score-test{
-height: 50px;
-width: 100%;
-align-items: center;
-justify-content: space-between;
-}
-
-.endResult>.score-test>span{
-    user-select: none;
-    display: flex;
-    font-size: 20px;
-    padding: 25px;
-    font-weight: 600;
-
-}
-
-
-.endResult>.score-test>span>p{
-   font-weight: bold; 
-   padding: 5px;
-   font-size: 20px;
-}
-
-
-.endResult>.score-test>span>p:first-child{
-    margin-left: 15px;
-}
-
-.endResult>.End-btn{ 
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0px 35px;
-}
-
-.endResult>.End-btn>button{
-    border: 1px transparent;
-    font-size: 25px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    font-weight: bold;
-    width: 150px; 
-    transition: all 0.3s ease;
-    border-radius: 5px;
-    height: 30px;
-    margin: 60% 0px 0px 50px;
-    margin-top: 500px;
-}
-
-.endResult>.End-btn>button:last-child{
-    margin-right: 90px;
-}
-
-.endResult>.End-btn>button.restart{
-    background-color: #007bff;
-    border: 1px solid #007bff;
-    color: white;
-    line-height: 24px;
-}
-
-.endResult>.End-btn>button.restart:hover{
-    background-color: #007bff;
-}
-
-
-.endResult>.End-btn>button.quit{
-    border: 1px solid #007bff;
-    color: #007bff;
-    margin-right: 50px;
-    line-height: 25px;
-}
-
-.endResult>.End-btn>button.quit:hover{
-    color: white;
-    background-color: #007bff;
 }
