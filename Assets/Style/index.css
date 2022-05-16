@@ -281,7 +281,7 @@ footer>#showscore{
 }
 
 
-@media (min-width:425px){
+@media (min-width:425px){}
 .boxmodel>div.boxtitle{
 border:1px solid red ;
 width: 100%;
