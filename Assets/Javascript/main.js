@@ -36,7 +36,7 @@ const quiz = [
             "b":"let",
             "c":"Both of the above",
             "d":"None of the above",
-            "correct":"c"
+            "correct":"c",
         }
     },
     {
@@ -60,8 +60,7 @@ const opt3 = document.querySelector("#option3");
 const opt4 = document.querySelector("#option4");
 const submit = document.querySelector("#submit");
 const answers1 = document.querySelectorAll(".answer")
-const showsc = document.querySelector("#showscore");
-
+const showsc = document.querySelector("#showscore"); 
 const loadQuestions = () => {
     const listOfQuestions = quiz[count];
     quizquestion.innerHTML = listOfQuestions.question;

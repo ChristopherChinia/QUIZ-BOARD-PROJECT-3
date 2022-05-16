@@ -58,7 +58,7 @@ color: #007bff;
 
 .boxmodel>div.boxtitle{
     font-size: 25px;
-    margin-left: 250px;
+    /* margin-left: 250px; */
 }
 
 .boxmodel>div.boxtitle{
@@ -275,12 +275,15 @@ footer>#showscore{
     width: 100px;
     line-height: 24px;
     margin-bottom: 18px;
-    margin-left: 40%;
+    margin-left: 5%; 
     flex-direction: row;
 
 }
 
 
-@media (min-width:600px){
-     
+@media (min-width:425px){
+.boxmodel>div.boxtitle{
+border:1px solid red ;
+width: 100%;
+margin-left: 0px;
 }
