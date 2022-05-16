@@ -15,27 +15,29 @@
 
  ## Description
 
-This is a project website for Top movers that aims at advertising to the users about the products and services provided to the clients. It also gives description about services provided by other movers. 
+This is computer club website that has been developed to test students that have finished their Javascript module before they move into the next stage. The website is user-friendly and easy to navigate around.After loading the URL link of the website, the student will be able to see the first page with a start button which will redirect you to the instructions and question page.You will answer and submit before proceeding to the next question. A student is only be allowed to select one answer.The website is designed to give the scores after all questions have been attempted.
+
+* To see the design visit:https://www.figma.com/file/1tLFEHODlcNlKv3U7AAPYW/Quiz-Test-Design?node-id=0%3A1
 
 [Go Back to the top](#Moringa-School)
 
 
 ## Features
 As a user of this site,you will be able to:
-1.Learn more about various services provided.
-2.Access various links to your preference.
+1.Do the test Quiz.
+2.Get your score.
 3.Access other websites through the movers link.
 
 [Go Back to the top](#Moringa School)
 
 ### Requirements
 
- * Access to  a computer or any other garget
- * Access to internet
+ * Access to  a computer or any other garget.
+ * Access to internet connection.
 
  ### Installation Process
  ****
- *Clone to through the repository : 
+ *Clone to through the repository : https://github.com/ChristopherChinia/QUIZ-BOARD-PROJECT-3.git
  * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
@@ -43,7 +45,7 @@ As a user of this site,you will be able to:
   [Go Back to the top](#Moringa-School)
 ### Live Link
 
- Click this link to view the live application  
+ Click this link to view the live application:  
 
  ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
