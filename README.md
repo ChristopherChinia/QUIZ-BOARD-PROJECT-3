@@ -15,7 +15,7 @@
 
  ## Description
 
-This is computer club website that has been developed to test students that have finished their Javascript module before they move into the next stage. The website is user-friendly and easy to navigate around.After loading the URL link of the website, the student will be able to see the first page with a start button which will redirect you to the instructions and question page.You will answer and submit before proceeding to the next question. A student is only be allowed to select one answer.The website is designed to give the scores after all questions have been attempted.
+This is website that has been developed to test students that have finished their Javascript module before they move into the next stage. The website is user-friendly and easy to navigate around.After loading the URL link of the website, the student will be able to see the first page with a start button which will redirect you to the instructions and question page.You will answer and submit before proceeding to the next question. A student is only be allowed to select one answer.The website is designed to give the scores after all questions have been attempted.
 
 * To see the design visit:https://www.figma.com/file/1tLFEHODlcNlKv3U7AAPYW/Quiz-Test-Design?node-id=0%3A1
 
@@ -26,7 +26,6 @@ This is computer club website that has been developed to test students that have
 As a user of this site,you will be able to:
 1.Do the test Quiz.
 2.Get your score.
-3.Access other websites through the movers link.
 
 [Go Back to the top](#Moringa School)
 
