@@ -44,7 +44,7 @@ As a user of this site,you will be able to:
   [Go Back to the top](#Moringa-School)
 ### Live Link
 
- Click this link to view the live application:  
+ Click this link to view the live application:https://christopherchinia.github.io/QUIZ-BOARD-PROJECT-3/  
 
  ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
